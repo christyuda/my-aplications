@@ -1,4 +1,8 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
 // https://astro.build/config
-export default defineConfig({});
+// astro.config.mjs
+export default {
+  site: "https://christyuda.github.io",
+  base: "/my-applications/",
+};
